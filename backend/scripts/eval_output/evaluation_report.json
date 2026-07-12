@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "eval_time": "2026-04-27 15:26:08",
+    "total_questions": 300,
+    "models_evaluated": [
+      "qwen-turbo",
+      "qwen-plus",
+      "qwen-max"
+    ],
+    "judge_model": "qwen-max",
+    "sample_config": {
+      "policy": 4,
+      "tender": 4,
+      "enterprise": 2
+    }
+  },
+  "model_summary": {
+    "qwen-turbo": {
+      "count": 300,
+      "accuracy_avg": 24.03,
+      "faithfulness_avg": 92.37,
+      "citation_accuracy_avg": 62.97,
+      "completeness_avg": 29.53,
+      "overall_avg": 52.23,
+      "bert_score_f1_avg": 0.0,
+      "rouge_l_avg": 0.08
+    },
+    "qwen-plus": {
+      "count": 300,
+      "accuracy_avg": 18.43,
+      "faithfulness_avg": 96.23,
+      "citation_accuracy_avg": 86.07,
+      "completeness_avg": 22.1,
+      "overall_avg": 55.71,
+      "bert_score_f1_avg": 0.0,
+      "rouge_l_avg": 0.04
+    },
+    "qwen-max": {
+      "count": 300,
+      "accuracy_avg": 25.33,
+      "faithfulness_avg": 91.67,
+      "citation_accuracy_avg": 86.4,
+      "completeness_avg": 34.3,
+      "overall_avg": 59.42,
+      "bert_score_f1_avg": 0.0,
+      "rouge_l_avg": 0.07
+    }
+  },
+  "domain_summary": {
+    "qwen-turbo_enterprise": {
+      "model": "qwen-turbo",
+      "domain": "enterprise",
+      "count": 75,
+      "accuracy_avg": 16.93,
+      "faithfulness_avg": 93.87
+    },
+    "qwen-turbo_policy": {
+      "model": "qwen-turbo",
+      "domain": "policy",
+      "count": 120,
+      "accuracy_avg": 40.17,
+      "faithfulness_avg": 86.17
+    },
+    "qwen-turbo_tender": {
+      "model": "qwen-turbo",
+      "domain": "tender",
+      "count": 105,
+      "accuracy_avg": 10.67,
+      "faithfulness_avg": 98.38
+    },
+    "qwen-plus_enterprise": {
+      "model": "qwen-plus",
+      "domain": "enterprise",
+      "count": 75,
+      "accuracy_avg": 11.47,
+      "faithfulness_avg": 99.73
+    },
+    "qwen-plus_policy": {
+      "model": "qwen-plus",
+      "domain": "policy",
+      "count": 120,
+      "accuracy_avg": 30.17,
+      "faithfulness_avg": 90.75
+    },
+    "qwen-plus_tender": {
+      "model": "qwen-plus",
+      "domain": "tender",
+      "count": 105,
+      "accuracy_avg": 10.0,
+      "faithfulness_avg": 100.0
+    },
+    "qwen-max_enterprise": {
+      "model": "qwen-max",
+      "domain": "enterprise",
+      "count": 75,
+      "accuracy_avg": 18.53,
+      "faithfulness_avg": 93.07
+    },
+    "qwen-max_policy": {
+      "model": "qwen-max",
+      "domain": "policy",
+      "count": 120,
+      "accuracy_avg": 42.25,
+      "faithfulness_avg": 84.5
+    },
+    "qwen-max_tender": {
+      "model": "qwen-max",
+      "domain": "tender",
+      "count": 105,
+      "accuracy_avg": 10.86,
+      "faithfulness_avg": 98.86
+    }
+  },
+  "difficulty_summary": {
+    "qwen-turbo": {
+      "easy": {
+        "accuracy": 17.9,
+        "overall": 49.82
+      },
+      "medium": {
+        "accuracy": 25.68,
+        "overall": 52.45
+      },
+      "hard": {
+        "accuracy": 46.84,
+        "overall": 62.24
+      }
+    },
+    "qwen-plus": {
+      "easy": {
+        "accuracy": 16.29,
+        "overall": 56.5
+      },
+      "medium": {
+        "accuracy": 20.21,
+        "overall": 53.87
+      },
+      "hard": {
+        "accuracy": 23.42,
+        "overall": 56.84
+      }
+    },
+    "qwen-max": {
+      "easy": {
+        "accuracy": 20.42,
+        "overall": 59.51
+      },
+      "medium": {
+        "accuracy": 28.11,
+        "overall": 58.0
+      },
+      "hard": {
+        "accuracy": 40.0,
+        "overall": 62.63
+      }
+    }
+  }
+}

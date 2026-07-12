@@ -1,0 +1,45 @@
+# 环境变量 & 密钥
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.pyc
+
+# Node
+node_modules/
+dist/
+.npm-cache/
+
+# 数据库 & 存储
+storage/
+*.db
+*.sqlite3
+faiss_index/
+milvus/
+vector_store/
+attachments/
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 模型权重文件（太大，从 HuggingFace 下载）
+backend/models/
+*.safetensors
+*.bin
+
+# 临时文件
+*.tmp
+*.log

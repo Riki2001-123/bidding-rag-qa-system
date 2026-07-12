@@ -1,0 +1,19 @@
+SQL 型评测问答对生成报告 (V2 - 零JOIN优化版)
+=============================================
+生成时间: 2026-04-24 01:04:36
+总耗时: 19.0 秒
+
+数据分布
+---------------------------------------------
+域分布: {'enterprise': 224, 'tender': 241, 'cross_domain': 104, 'policy': 11}
+问题类型: {'factual': 393, 'reasoning': 83, 'cross_domain': 104}
+难度分布: {'easy': 346, 'medium': 80, 'hard': 154}
+模板分布: {'enterprise_count_by_industry': 25, 'enterprise_scope_match': 18, 'enterprise_detail': 100, 'enterprise_industry_stats': 1, 'enterprise_tender_eligibility': 50, 'enterprise_same_industry_sample': 30, 'tender_by_agency': 60, 'tender_winner_count': 40, 'tender_project_list': 4, 'tender_by_project_type': 15, 'tender_detail': 80, 'tender_winner_projects': 40, 'tender_agency_ranking': 1, 'tender_winner_ranking': 1, 'cross_ent_tender_match': 52, 'cross_winner_competition': 52, 'policy_count': 1, 'policy_recent': 1, 'policy_keyword_search': 9}
+
+总计: 580 条问答对
+- Enterprise: 224
+- Tender: 241
+- Cross Domain: 104
+- Policy SQL: 11
+
+LLM 润色: 否 (纯模板)

@@ -1,0 +1,7802 @@
+{
+  "q_000": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_001": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_002": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.7273
+    }
+  },
+  "q_003": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_004": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_005": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_006": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_007": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_008": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_009": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_010": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_011": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_012": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_013": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_014": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_015": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1818
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_016": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_017": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_018": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_019": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_020": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_021": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_022": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_023": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_024": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_025": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_026": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_027": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_028": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_029": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_030": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_031": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_032": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_033": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 1.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_034": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_035": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_036": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_037": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_038": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_039": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_040": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_041": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_042": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_043": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_044": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_045": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_046": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1111
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_047": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_048": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1818
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_049": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_050": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_051": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_052": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_053": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_054": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_055": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_056": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_057": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_058": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_059": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_060": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_061": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_062": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_063": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_064": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_065": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_066": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_067": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6154
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    }
+  },
+  "q_068": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_069": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_070": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_071": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_072": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_073": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_074": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_075": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_076": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_077": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_078": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_079": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_080": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_081": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_082": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_083": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_084": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_085": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_086": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_087": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_088": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2857
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_089": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_090": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_091": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_092": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_093": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_094": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    }
+  },
+  "q_095": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_096": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_097": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_098": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1818
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0909
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1538
+    }
+  },
+  "q_099": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_100": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_101": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_102": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_103": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_104": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_105": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_106": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_107": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_108": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_109": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_110": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_111": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_112": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_113": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_114": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 1.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_115": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_116": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_117": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_118": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_119": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_120": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_121": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_122": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_123": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_124": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_125": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_126": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_127": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_128": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_129": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_130": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_131": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_132": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_133": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_134": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_135": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_136": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_137": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_138": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_139": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_140": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_141": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_142": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_143": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_144": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_145": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_146": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_147": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_148": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_149": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_150": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_151": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_152": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_153": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_154": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5714
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5714
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_155": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_156": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 1.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_157": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_158": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_159": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_160": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_161": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_162": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_163": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_164": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_165": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_166": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_167": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2857
+    }
+  },
+  "q_168": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_169": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 1.0
+    }
+  },
+  "q_170": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_171": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_172": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_173": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_174": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_175": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_176": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_177": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_178": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_179": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_180": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_181": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1176
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_182": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_183": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_184": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_185": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_186": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_187": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_188": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_189": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_190": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_191": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_192": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_193": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_194": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_195": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_196": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_197": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_198": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_199": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_200": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_201": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_202": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.25
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_203": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_204": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_205": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_206": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_207": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_208": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_209": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_210": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_211": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2222
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_212": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_213": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_214": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_215": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_216": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_217": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_218": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_219": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_220": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_221": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_222": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_223": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_224": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    }
+  },
+  "q_225": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_226": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_227": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_228": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_229": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_230": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_231": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_232": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_233": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_234": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_235": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_236": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_237": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_238": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_239": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_240": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.4
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_241": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_242": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_243": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_244": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_245": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_246": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_247": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_248": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_249": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_250": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.3333
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_251": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_252": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_253": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_254": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_255": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_256": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_257": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2857
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_258": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_259": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_260": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_261": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_262": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_263": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_264": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_265": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_266": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_267": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_268": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_269": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_270": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_271": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.1667
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_272": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_273": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_274": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_275": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_276": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    }
+  },
+  "q_277": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_278": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_279": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_280": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_281": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_282": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.2
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_283": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_284": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_285": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_286": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_287": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_288": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_289": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_290": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_291": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_292": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_293": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_294": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_295": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_296": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_297": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5714
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.5714
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0.6667
+    }
+  },
+  "q_298": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  },
+  "q_299": {
+    "qwen-turbo": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-plus": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    },
+    "qwen-max": {
+      "bert_score": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "rouge_l": 0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "question": "该企业的经营范围是否允许其参与互联网数据中心业务的投标？",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 1312370,
+    "gold_record_id": 7184,
+    "gold_record_ids": [
+      7184
+    ],
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  }
+]

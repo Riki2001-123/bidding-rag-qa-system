@@ -1,0 +1,1163 @@
+[
+  {
+    "question": "该企业是否有资格参与皮革加工相关的工程或服务投标？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 1367766,
+    "gold_record_id": 25147,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  },
+  {
+    "question": "基于给定的经营范围，这家公司的主要业务领域是什么？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 1346110,
+    "gold_record_id": 18213,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  },
+  {
+    "question": "列举几家专业技术服务业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 25,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          36701,
+          32919,
+          32687,
+          31160,
+          29660,
+          28916,
+          27394,
+          27212,
+          27159,
+          27047,
+          26968,
+          26934,
+          26850,
+          26655,
+          26584,
+          26570,
+          25994,
+          25955,
+          25938,
+          25439
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "36701": [
+            "structured"
+          ],
+          "32919": [
+            "structured"
+          ],
+          "32687": [
+            "structured"
+          ],
+          "31160": [
+            "structured"
+          ],
+          "29660": [
+            "structured"
+          ],
+          "28916": [
+            "structured"
+          ],
+          "27394": [
+            "structured"
+          ],
+          "27212": [
+            "structured"
+          ],
+          "27159": [
+            "structured"
+          ],
+          "27047": [
+            "structured"
+          ],
+          "26968": [
+            "structured"
+          ],
+          "26934": [
+            "structured"
+          ],
+          "26850": [
+            "structured"
+          ],
+          "26655": [
+            "structured"
+          ],
+          "26584": [
+            "structured"
+          ],
+          "26570": [
+            "structured"
+          ],
+          "25994": [
+            "structured"
+          ],
+          "25955": [
+            "structured"
+          ],
+          "25938": [
+            "structured"
+          ],
+          "25439": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "36701": [],
+          "32919": [],
+          "32687": [],
+          "31160": [],
+          "29660": [],
+          "28916": [],
+          "27394": [],
+          "27212": [],
+          "27159": [],
+          "27047": [],
+          "26968": [],
+          "26934": [],
+          "26850": [],
+          "26655": [],
+          "26584": [],
+          "26570": [],
+          "25994": [],
+          "25955": [],
+          "25938": [],
+          "25439": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "列举几家公共设施管理业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 117,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38901,
+          38864,
+          38861,
+          38848,
+          38839,
+          38837,
+          38656,
+          38654,
+          38606,
+          38573,
+          38540,
+          38521,
+          38505,
+          38486,
+          38479,
+          38421,
+          38414,
+          38370,
+          38361,
+          38350
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38901": [
+            "structured"
+          ],
+          "38864": [
+            "structured"
+          ],
+          "38861": [
+            "structured"
+          ],
+          "38848": [
+            "structured"
+          ],
+          "38839": [
+            "structured"
+          ],
+          "38837": [
+            "structured"
+          ],
+          "38656": [
+            "structured"
+          ],
+          "38654": [
+            "structured"
+          ],
+          "38606": [
+            "structured"
+          ],
+          "38573": [
+            "structured"
+          ],
+          "38540": [
+            "structured"
+          ],
+          "38521": [
+            "structured"
+          ],
+          "38505": [
+            "structured"
+          ],
+          "38486": [
+            "structured"
+          ],
+          "38479": [
+            "structured"
+          ],
+          "38421": [
+            "structured"
+          ],
+          "38414": [
+            "structured"
+          ],
+          "38370": [
+            "structured"
+          ],
+          "38361": [
+            "structured"
+          ],
+          "38350": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38901": [],
+          "38864": [],
+          "38861": [],
+          "38848": [],
+          "38839": [],
+          "38837": [],
+          "38656": [],
+          "38654": [],
+          "38606": [],
+          "38573": [],
+          "38540": [],
+          "38521": [],
+          "38505": [],
+          "38486": [],
+          "38479": [],
+          "38421": [],
+          "38414": [],
+          "38370": [],
+          "38361": [],
+          "38350": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "哪些企业的经营范围包含\"建筑材料\"相关业务？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 0,
+    "gold_record_id": 9,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38901,
+          38900,
+          38899,
+          38898,
+          38897,
+          38896,
+          38895,
+          38894,
+          38893,
+          38892,
+          38860,
+          38858,
+          38853,
+          38824,
+          38817,
+          38717,
+          38702,
+          38678,
+          38642,
+          38634
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38901": [
+            "structured"
+          ],
+          "38900": [
+            "structured"
+          ],
+          "38899": [
+            "structured"
+          ],
+          "38898": [
+            "structured"
+          ],
+          "38897": [
+            "structured"
+          ],
+          "38896": [
+            "structured"
+          ],
+          "38895": [
+            "structured"
+          ],
+          "38894": [
+            "structured"
+          ],
+          "38893": [
+            "structured"
+          ],
+          "38892": [
+            "structured"
+          ],
+          "38860": [
+            "structured"
+          ],
+          "38858": [
+            "structured"
+          ],
+          "38853": [
+            "structured"
+          ],
+          "38824": [
+            "structured"
+          ],
+          "38817": [
+            "structured"
+          ],
+          "38717": [
+            "structured"
+          ],
+          "38702": [
+            "structured"
+          ],
+          "38678": [
+            "structured"
+          ],
+          "38642": [
+            "structured"
+          ],
+          "38634": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38901": [],
+          "38900": [],
+          "38899": [],
+          "38898": [],
+          "38897": [],
+          "38896": [],
+          "38895": [],
+          "38894": [],
+          "38893": [],
+          "38892": [],
+          "38860": [],
+          "38858": [],
+          "38853": [],
+          "38824": [],
+          "38817": [],
+          "38717": [],
+          "38702": [],
+          "38678": [],
+          "38642": [],
+          "38634": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "从给定的信息来看，这家公司的主要业务领域是什么？它们最可能擅长哪些方面的服务或产品？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 1307294,
+    "gold_record_id": 5527,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38901,
+          38900,
+          38899,
+          38898,
+          38897,
+          38896,
+          38895,
+          38894,
+          38893,
+          38892
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38901": [
+            "structured"
+          ],
+          "38900": [
+            "structured"
+          ],
+          "38899": [
+            "structured"
+          ],
+          "38898": [
+            "structured"
+          ],
+          "38897": [
+            "structured"
+          ],
+          "38896": [
+            "structured"
+          ],
+          "38895": [
+            "structured"
+          ],
+          "38894": [
+            "structured"
+          ],
+          "38893": [
+            "structured"
+          ],
+          "38892": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38901": [],
+          "38900": [],
+          "38899": [],
+          "38898": [],
+          "38897": [],
+          "38896": [],
+          "38895": [],
+          "38894": [],
+          "38893": [],
+          "38892": []
+        },
+        "sources": {
+          "structured": 10
+        }
+      }
+    }
+  },
+  {
+    "question": "这家企业是否有资格参与林木种植相关的工程项目投标？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 1381488,
+    "gold_record_id": 29582,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  },
+  {
+    "question": "该企业是否有资格参与城市快速轨道交通客运服务的投标？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 1382617,
+    "gold_record_id": 29949,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  },
+  {
+    "question": "列举几家其他服务业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 343,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38648,
+          37147,
+          35812,
+          35671,
+          34726,
+          34660,
+          34630,
+          33828,
+          33465,
+          32620,
+          32236,
+          32006,
+          31992,
+          31758,
+          31302,
+          30967,
+          30913,
+          30904,
+          30899,
+          30855
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38648": [
+            "structured"
+          ],
+          "37147": [
+            "structured"
+          ],
+          "35812": [
+            "structured"
+          ],
+          "35671": [
+            "structured"
+          ],
+          "34726": [
+            "structured"
+          ],
+          "34660": [
+            "structured"
+          ],
+          "34630": [
+            "structured"
+          ],
+          "33828": [
+            "structured"
+          ],
+          "33465": [
+            "structured"
+          ],
+          "32620": [
+            "structured"
+          ],
+          "32236": [
+            "structured"
+          ],
+          "32006": [
+            "structured"
+          ],
+          "31992": [
+            "structured"
+          ],
+          "31758": [
+            "structured"
+          ],
+          "31302": [
+            "structured"
+          ],
+          "30967": [
+            "structured"
+          ],
+          "30913": [
+            "structured"
+          ],
+          "30904": [
+            "structured"
+          ],
+          "30899": [
+            "structured"
+          ],
+          "30855": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38648": [],
+          "37147": [],
+          "35812": [],
+          "35671": [],
+          "34726": [],
+          "34660": [],
+          "34630": [],
+          "33828": [],
+          "33465": [],
+          "32620": [],
+          "32236": [],
+          "32006": [],
+          "31992": [],
+          "31758": [],
+          "31302": [],
+          "30967": [],
+          "30913": [],
+          "30904": [],
+          "30899": [],
+          "30855": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "哪些企业的经营范围包含\"网络\"相关业务？",
+    "domain": "enterprise",
+    "difficulty": "medium",
+    "question_type": "reasoning",
+    "gold_chunk_id": 0,
+    "gold_record_id": 1,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38901,
+          38900,
+          38899,
+          38898,
+          38897,
+          38896,
+          38895,
+          38894,
+          38893,
+          38892,
+          38787,
+          38159,
+          37941,
+          37570,
+          37535,
+          37516,
+          37450,
+          37168,
+          37137,
+          37136
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38901": [
+            "structured"
+          ],
+          "38900": [
+            "structured"
+          ],
+          "38899": [
+            "structured"
+          ],
+          "38898": [
+            "structured"
+          ],
+          "38897": [
+            "structured"
+          ],
+          "38896": [
+            "structured"
+          ],
+          "38895": [
+            "structured"
+          ],
+          "38894": [
+            "structured"
+          ],
+          "38893": [
+            "structured"
+          ],
+          "38892": [
+            "structured"
+          ],
+          "38787": [
+            "structured"
+          ],
+          "38159": [
+            "structured"
+          ],
+          "37941": [
+            "structured"
+          ],
+          "37570": [
+            "structured"
+          ],
+          "37535": [
+            "structured"
+          ],
+          "37516": [
+            "structured"
+          ],
+          "37450": [
+            "structured"
+          ],
+          "37168": [
+            "structured"
+          ],
+          "37137": [
+            "structured"
+          ],
+          "37136": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38901": [],
+          "38900": [],
+          "38899": [],
+          "38898": [],
+          "38897": [],
+          "38896": [],
+          "38895": [],
+          "38894": [],
+          "38893": [],
+          "38892": [],
+          "38787": [],
+          "38159": [],
+          "37941": [],
+          "37570": [],
+          "37535": [],
+          "37516": [],
+          "37450": [],
+          "37168": [],
+          "37137": [],
+          "37136": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "列举几家酒、饮料和精制茶制造业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 280,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38653,
+          38439,
+          38244,
+          38219,
+          37768,
+          37641,
+          37411,
+          37274,
+          37172,
+          36829,
+          36456,
+          36436,
+          36426,
+          36413,
+          36389,
+          35894,
+          35738,
+          35688,
+          35620,
+          35305
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38653": [
+            "structured"
+          ],
+          "38439": [
+            "structured"
+          ],
+          "38244": [
+            "structured"
+          ],
+          "38219": [
+            "structured"
+          ],
+          "37768": [
+            "structured"
+          ],
+          "37641": [
+            "structured"
+          ],
+          "37411": [
+            "structured"
+          ],
+          "37274": [
+            "structured"
+          ],
+          "37172": [
+            "structured"
+          ],
+          "36829": [
+            "structured"
+          ],
+          "36456": [
+            "structured"
+          ],
+          "36436": [
+            "structured"
+          ],
+          "36426": [
+            "structured"
+          ],
+          "36413": [
+            "structured"
+          ],
+          "36389": [
+            "structured"
+          ],
+          "35894": [
+            "structured"
+          ],
+          "35738": [
+            "structured"
+          ],
+          "35688": [
+            "structured"
+          ],
+          "35620": [
+            "structured"
+          ],
+          "35305": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38653": [],
+          "38439": [],
+          "38244": [],
+          "38219": [],
+          "37768": [],
+          "37641": [],
+          "37411": [],
+          "37274": [],
+          "37172": [],
+          "36829": [],
+          "36456": [],
+          "36436": [],
+          "36426": [],
+          "36413": [],
+          "36389": [],
+          "35894": [],
+          "35738": [],
+          "35688": [],
+          "35620": [],
+          "35305": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "该企业的经营范围是否允许其参与废旧汽车回收项目的投标？",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 1347570,
+    "gold_record_id": 18694,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {},
+        "chunk_ids_by_record": {},
+        "sources": {}
+      }
+    }
+  },
+  {
+    "question": "列举几家科技推广和应用服务业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 4,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          38209,
+          37621,
+          37038,
+          36966,
+          36717,
+          36566,
+          36507,
+          35680,
+          35471,
+          35276,
+          34999,
+          33847,
+          33496,
+          33418,
+          32900,
+          32234,
+          31803,
+          31290,
+          31083,
+          30832
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "38209": [
+            "structured"
+          ],
+          "37621": [
+            "structured"
+          ],
+          "37038": [
+            "structured"
+          ],
+          "36966": [
+            "structured"
+          ],
+          "36717": [
+            "structured"
+          ],
+          "36566": [
+            "structured"
+          ],
+          "36507": [
+            "structured"
+          ],
+          "35680": [
+            "structured"
+          ],
+          "35471": [
+            "structured"
+          ],
+          "35276": [
+            "structured"
+          ],
+          "34999": [
+            "structured"
+          ],
+          "33847": [
+            "structured"
+          ],
+          "33496": [
+            "structured"
+          ],
+          "33418": [
+            "structured"
+          ],
+          "32900": [
+            "structured"
+          ],
+          "32234": [
+            "structured"
+          ],
+          "31803": [
+            "structured"
+          ],
+          "31290": [
+            "structured"
+          ],
+          "31083": [
+            "structured"
+          ],
+          "30832": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "38209": [],
+          "37621": [],
+          "37038": [],
+          "36966": [],
+          "36717": [],
+          "36566": [],
+          "36507": [],
+          "35680": [],
+          "35471": [],
+          "35276": [],
+          "34999": [],
+          "33847": [],
+          "33496": [],
+          "33418": [],
+          "32900": [],
+          "32234": [],
+          "31803": [],
+          "31290": [],
+          "31083": [],
+          "30832": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  },
+  {
+    "question": "列举几家家具制造业行业的企业。",
+    "domain": "enterprise",
+    "difficulty": "easy",
+    "question_type": "factual",
+    "gold_chunk_id": 0,
+    "gold_record_id": 19,
+    "retrieved": {
+      "final": {
+        "chunk_ids": [],
+        "record_ids": [
+          37876,
+          36857,
+          35540,
+          34855,
+          34796,
+          33939,
+          33916,
+          31719,
+          30868,
+          30858,
+          28042,
+          27997,
+          27457,
+          27432,
+          27430,
+          27251,
+          27101,
+          26926,
+          26853,
+          26824
+        ],
+        "answer_only": false,
+        "error": "",
+        "sources_by_record": {
+          "37876": [
+            "structured"
+          ],
+          "36857": [
+            "structured"
+          ],
+          "35540": [
+            "structured"
+          ],
+          "34855": [
+            "structured"
+          ],
+          "34796": [
+            "structured"
+          ],
+          "33939": [
+            "structured"
+          ],
+          "33916": [
+            "structured"
+          ],
+          "31719": [
+            "structured"
+          ],
+          "30868": [
+            "structured"
+          ],
+          "30858": [
+            "structured"
+          ],
+          "28042": [
+            "structured"
+          ],
+          "27997": [
+            "structured"
+          ],
+          "27457": [
+            "structured"
+          ],
+          "27432": [
+            "structured"
+          ],
+          "27430": [
+            "structured"
+          ],
+          "27251": [
+            "structured"
+          ],
+          "27101": [
+            "structured"
+          ],
+          "26926": [
+            "structured"
+          ],
+          "26853": [
+            "structured"
+          ],
+          "26824": [
+            "structured"
+          ]
+        },
+        "chunk_ids_by_record": {
+          "37876": [],
+          "36857": [],
+          "35540": [],
+          "34855": [],
+          "34796": [],
+          "33939": [],
+          "33916": [],
+          "31719": [],
+          "30868": [],
+          "30858": [],
+          "28042": [],
+          "27997": [],
+          "27457": [],
+          "27432": [],
+          "27430": [],
+          "27251": [],
+          "27101": [],
+          "26926": [],
+          "26853": [],
+          "26824": []
+        },
+        "sources": {
+          "structured": 50
+        }
+      }
+    }
+  }
+]

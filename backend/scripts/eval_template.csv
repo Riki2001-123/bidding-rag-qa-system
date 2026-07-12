@@ -1,0 +1,4 @@
+question,ground_truth,domain,source_record_ids,difficulty
+有哪些政府采购政策？,系统中有政府采购相关政策记录,policy,,easy
+最近有哪些招标项目？,系统中有大量招标项目记录,tender,,easy
+有哪些企业供应商？,系统中有多种类型的企业供应商记录,enterprise,,easy

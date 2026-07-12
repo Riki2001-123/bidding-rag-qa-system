@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "eval_time": "2026-04-28 17:00:41",
+    "input": "D:\\python\\PythonProject\\RAG+LLMProject\\backend\\tests\\qa_dataset_recall.json",
+    "domain": "tender",
+    "limit": 100,
+    "top_k": [
+      1,
+      3,
+      5,
+      10,
+      20
+    ],
+    "skip_rerank": true,
+    "final_only": true,
+    "evaluated_matched_samples": 100
+  },
+  "dataset": {
+    "total": 243,
+    "matched": 196,
+    "unmatched": 47,
+    "matched_rate": 80.66,
+    "status_counts": {
+      "matched": 196,
+      "unmatched": 47
+    },
+    "unmatched_reasons": {
+      "aggregate_no_record_gold": 46,
+      "no_structured_candidate": 1
+    }
+  },
+  "metrics": {
+    "overall": {
+      "final": {
+        "n": 100,
+        "chunk_recall": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0,
+          "R@20": 0.0
+        },
+        "record_recall": {
+          "R@1": 86.0,
+          "R@3": 92.0,
+          "R@5": 93.0,
+          "R@10": 93.0,
+          "R@20": 93.0
+        },
+        "answer_only": 0,
+        "errors": 0
+      }
+    },
+    "tender": {
+      "final": {
+        "n": 100,
+        "chunk_recall": {
+          "R@1": 0.0,
+          "R@3": 0.0,
+          "R@5": 0.0,
+          "R@10": 0.0,
+          "R@20": 0.0
+        },
+        "record_recall": {
+          "R@1": 86.0,
+          "R@3": 92.0,
+          "R@5": 93.0,
+          "R@10": 93.0,
+          "R@20": 93.0
+        },
+        "answer_only": 0,
+        "errors": 0
+      }
+    }
+  },
+  "vector_index": {
+    "enterprise": {
+      "chunks": 120193,
+      "vector_indexed": 0,
+      "complete": false
+    },
+    "policy": {
+      "chunks": 4511,
+      "vector_indexed": 4511,
+      "complete": true
+    },
+    "tender": {
+      "chunks": 887048,
+      "vector_indexed": 0,
+      "complete": false
+    }
+  },
+  "target": {
+    "metric": "overall.final.record_recall.R@20",
+    "target": 92.0,
+    "achieved": 93.0,
+    "valid": true,
+    "passed": true,
+    "invalid_reason": "",
+    "vector_required_domains": []
+  }
+}
