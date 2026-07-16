@@ -225,4 +225,4 @@ This project is for portfolio demonstration. Contact the author for usage terms.
 
 ---
 
-*Built by [Riki2001](https://github.com/Riki2001) — internship project at iFLYTEK, 2026.*
+*Built by [Riki2001-123](https://github.com/Riki2001-123) — internship project at iFLYTEK, 2026.*
