@@ -40,6 +40,15 @@ backend/models/
 *.safetensors
 *.bin
 
+# pytest
+.pytest_cache/
+
+# 评测输出
+backend/scripts/eval_output*/
+
+# 前端日志
+frontend/.vite-dev.*.log
+
 # 临时文件
 *.tmp
 *.log
