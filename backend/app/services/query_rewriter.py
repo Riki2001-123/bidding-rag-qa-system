@@ -14,6 +14,7 @@ Query Rewrite — 查询改写模块。
 """
 
 from dataclasses import dataclass
+import re
 from typing import Dict, List, Optional, Sequence
 
 from app.services.llm import close_llm_client, get_llm_client
@@ -31,6 +32,19 @@ class RewrittenQuery:
     is_decomposed: bool      # 是否进行了查询分解
     sub_queries: List[str]   # 分解后的子查询（如有）
     reasoning: str           # 改写理由
+    reuse_evidence: bool = False
+
+
+_FORMAT_FOLLOWUP = re.compile(
+    r"^(?:请)?(?:把|将)?(?:刚才|刚刚|上述|上面|上一轮|之前)(?:的)?"
+    r"(?:回答|内容|结论|适用范围|资格条件|要求)?(?:请|再)?"
+    r"(?:归纳|总结|概括|整理|简化)(?:一下)?(?:成|为)?"
+    r"(?:[一二三四五两1-5])?(?:点|条|句话)?[。？！?！\s]*$"
+)
+
+
+def is_format_followup(question: str) -> bool:
+    return bool(_FORMAT_FOLLOWUP.fullmatch(question.strip()))
 
 
 # ── 核心 Prompt ────────────────────────────────────────────────
@@ -136,13 +150,24 @@ def rewrite_query(
             reasoning="无历史对话，跳过改写",
         )
 
+    if is_format_followup(question):
+        # Resolve from user questions, never from potentially unsupported answers.
+        anchor = next((msg.get("content", "") for msg in reversed(history_messages)
+                       if msg.get("role") == "user" and not is_format_followup(msg.get("content", ""))), "")
+        if anchor:
+            return RewrittenQuery(
+                rewritten=f"{anchor}\n本轮要求：{question}", is_coreference=True,
+                is_decomposed=False, sub_queries=[], reasoning="格式追问沿用最近明确主题与已授权证据",
+                reuse_evidence=True,
+            )
+
     # ── P0-2: 指代词预判 ──
     # 如果查询中不包含任何指代词/代词，且长度合理（>6字），不需要 LLM 改写
     # 只在有指代消解需求或查询过短时才调 LLM，避免无意义的 1~3 秒开销
     _COREFERENCE_INDICATORS = (
         "它", "它们", "这个", "那个", "这家", "那家",
         "第一条", "第二条", "第三条", "上一条",
-        "前者", "后者", "其", "该", "上述", "之前",
+        "前者", "后者", "其", "该", "上述", "之前", "刚才", "刚刚", "上一轮", "上面",
         "这个项目", "那个项目", "这个公司", "那家公司",
         "这条政策", "那个政策", "这份", "那份",
     )

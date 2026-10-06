@@ -113,13 +113,11 @@ class LLMService:
         history_messages: Optional[list] = None,
         entity_context: str = "",
     ) -> AsyncIterable[str]:
-        """流式生成回答，逐 chunk yield 文本片段。失败时返回 fallback 全文。"""
+        """流式生成回答；失败向调用方传播，不拼接 fallback 成功回答。"""
         contexts = list(contexts)
         llm = get_llm_client()
         if llm is None:
-            print(f"[LLM] stream_answer: get_llm_client() 返回 None，返回 fallback (contexts={len(contexts)})", flush=True)
-            yield self._fallback_answer(user_role, contexts)
-            return
+            raise RuntimeError("Model service is unavailable")
 
         try:
             print(f"[LLM] stream_answer 开始调用 LLM | domain={domain} | contexts={len(contexts)} | question={question[:80]}", flush=True)
@@ -142,8 +140,7 @@ class LLMService:
                 attempt=1,
                 will_retry=False,
             )
-            # 流式中途失败，发送 fallback
-            yield self._fallback_answer(user_role, contexts)
+            raise RuntimeError("Model stream failed") from exc
         finally:
             close_llm_client(llm)
 

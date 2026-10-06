@@ -88,6 +88,7 @@ class RetrievedItem:
     publish_date: Any
     key_fields: dict
     source_fields: List[str]
+    evidence_excerpt: Optional[str] = None
 
 
 @dataclass
@@ -136,6 +137,9 @@ def search_domain(
     top_k: int = 10,
     **filters,
 ) -> List[RetrievedItem]:
+    # Routers pass optional filters as None; they must not select the legacy
+    # filtered path and eagerly index every business chunk for a plain query.
+    filters = {key: value for key, value in filters.items() if value not in (None, "")}
     if q and project_id is None and not filters:
         return high_recall_search(db=db, domain=domain, user=user, query_text=q, top_k=top_k).items
 

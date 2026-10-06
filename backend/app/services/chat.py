@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 from app.models.entities import ChatMessage, ChatSession, User
 from app.schemas.common import CitationOut
 from app.services.chat_agents import ChatOrchestrator
+from app.services.conversation_memory import conversation_memory
 
 
 _chat_orchestrator = ChatOrchestrator()
@@ -26,25 +27,25 @@ def answer_question(
 ):
     session = _get_owned_session(db, user, session_id)
     history_messages = _load_history_messages(db, session)
-    result = get_chat_orchestrator().orchestrate(
-        db=db,
-        user=user,
-        question=question,
-        preferred_domain=domain,
-        top_k=top_k,
-        history_messages=history_messages,
-        session_id=session.id if session else None,
-    )
-    return _persist_answer(
-        db=db,
-        user=user,
-        session=session,
-        question=question,
-        resolved_domain=result.domain,
-        answer=result.answer,
-        citations=result.citations,
-        conservative=result.conservative,
-    )
+    completed = False
+    try:
+        session = _get_or_create_session(db, user, session, question)
+        result = get_chat_orchestrator().orchestrate(
+            db=db, user=user, question=question, preferred_domain=domain,
+            top_k=top_k, history_messages=history_messages, session_id=session.id,
+        )
+        response = _persist_answer(
+            db=db, user=user, session=session, question=question,
+            resolved_domain=result.domain, answer=result.answer,
+            citations=result.citations, conservative=result.conservative,
+        )
+        completed = True
+        return response
+    finally:
+        if not completed:
+            db.rollback()
+            if session is not None:
+                conversation_memory.clear_session(session.id)
 
 
 async def stream_answer_question(
@@ -58,63 +59,64 @@ async def stream_answer_question(
     """
     流式问答：先完成路由和检索，再逐 chunk 流式输出回答。
     每个 yield 是 SSE 格式字符串（"data: {...}\n\n"）。
-    最后一个 type=done 事件携带完整 answer 用于持久化。
+    生成与持久化成功后，type=done 事件携带完整 answer 和 session_id。
     """
     session = _get_owned_session(db, user, session_id)
     history_messages = _load_history_messages(db, session)
 
-    full_answer = ""
     meta_info = None
-    citations_raw = []
-
-    async for sse_chunk in get_chat_orchestrator().stream_orchestrate(
-        db=db,
-        user=user,
-        question=question,
-        preferred_domain=domain,
-        top_k=top_k,
-        history_messages=history_messages,
-        session_id=session.id if session else None,
-    ):
-        yield sse_chunk
-        # 解析 SSE data 提取 meta 和 done
-        if sse_chunk.startswith("data: "):
-            try:
+    done_info = None
+    completed = False
+    try:
+        session = _get_or_create_session(db, user, session, question)
+        async for sse_chunk in get_chat_orchestrator().stream_orchestrate(
+            db=db,
+            user=user,
+            question=question,
+            preferred_domain=domain,
+            top_k=top_k,
+            history_messages=history_messages,
+            session_id=session.id if session else None,
+        ):
+            payload = None
+            if sse_chunk.startswith("data: "):
                 payload = json.loads(sse_chunk[6:].strip())
-            except (json.JSONDecodeError, IndexError):
-                continue
-            if payload.get("type") == "meta":
+            if payload and payload.get("type") == "meta":
                 meta_info = payload
-                citations_raw = payload.get("citations", [])
-            elif payload.get("type") == "done":
-                full_answer = payload.get("answer", "")
+            if payload and payload.get("type") == "error":
+                yield sse_chunk
+                return
+            if payload and payload.get("type") == "done":
+                # Complete only after the source stream and persistence succeed.
+                done_info = payload
+            else:
+                yield sse_chunk
 
-    # 持久化到数据库
-    if meta_info and full_answer:
-        from app.schemas.common import CitationOut as _CitationOut
-        resolved_domain = meta_info.get("domain", "")
-        conservative = meta_info.get("conservative", False)
-        citations_out = [
-            _CitationOut(
-                domain=c.get("domain", ""),
-                record_id=c.get("record_id", 0),
-                title=c.get("title", ""),
-                score=c.get("score", 0.0),
-                source_fields=c.get("source_fields", []),
-                key_fields=c.get("key_fields", {}),
-            )
-            for c in citations_raw
-        ]
-        _persist_answer(
+        if not meta_info or not done_info or not done_info.get("answer"):
+            raise RuntimeError("Incomplete answer stream")
+        citations_out = [CitationOut(**citation) for citation in meta_info.get("citations", [])]
+        result = _persist_answer(
             db=db,
             user=user,
             session=session,
             question=question,
-            resolved_domain=resolved_domain,
-            answer=full_answer,
+            resolved_domain=meta_info.get("domain", ""),
+            answer=done_info["answer"],
             citations=citations_out,
-            conservative=conservative,
+            conservative=meta_info.get("conservative", False),
         )
+        done_info["session_id"] = result["session_id"]
+        completed = True
+        yield f"data: {json.dumps(done_info, ensure_ascii=False)}\n\n"
+    except Exception:
+        # Do not expose provider errors, credentials or a fabricated success.
+        error = {"type": "error", "message": "回答生成或保存失败，请稍后重试。"}
+        yield f"data: {json.dumps(error, ensure_ascii=False)}\n\n"
+    finally:
+        if not completed:
+            db.rollback()
+            if session is not None:
+                conversation_memory.clear_session(session.id)
 
 
 def _get_owned_session(db: Session, user: User, session_id: Optional[int]) -> Optional[ChatSession]:

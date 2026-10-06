@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "node --test tests/unit.test.mjs",
-    "test:browser": "node tests/browser.mjs"
+    "test:browser": "node tests/browser.mjs",
+    "test:live": "node tests/live.mjs",
+    "test:quality": "node tests/quality.mjs"
   },
   "dependencies": {
     "@ant-design/icons": "^5.5.2",

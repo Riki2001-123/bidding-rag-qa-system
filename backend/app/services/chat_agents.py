@@ -7,16 +7,18 @@ import asyncio
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.models.entities import TenderRecord, User
+from app.models.entities import TenderRecord, PolicyRecord, ChatMessage, ChatSession, User
 from app.schemas.common import CitationOut
 from app.services.conversation_memory import conversation_memory
 from app.services.llm import close_llm_client, get_llm_client, llm_service
 from app.services.llm_prompts import get_prompt
 from app.services.query_rewriter import rewrite_query
+from app.services.policy_grounding import stream_quotes, generate_quotes, render_answer, render_quote, INTRO, FOOTER, NO_EVIDENCE
 from app.services.react_agent import run_react_agent, should_use_react
 from app.services.retrieval import apply_permission_filters, get_attachments, search_domain
 from app.services.retrieval_gate import check_retrieval_gate, update_retrieval_cache
-from app.services.retrieval import RetrievedItem
+from app.services.retrieval import RetrievedItem, DOMAIN_MODEL_MAP, _to_retrieved_item
+from app.services.retrieval_gate import RetrievalGateResult
 from app.services.domain_config import VALID_DOMAINS
 from app.services.json_utils import extract_json_object
 from app.services.retrieval_validator import validate_retrieval_results
@@ -399,7 +401,14 @@ class BaseBusinessAgent:
     def _build_evidence(db: Session, user: User, results) -> AgentEvidence:
         citations = []
         contexts = []
+        policy_ids = [item.record_id for item in results if item.domain == "policy"]
+        policy_rows = {}
+        if policy_ids:
+            stmt = apply_permission_filters(select(PolicyRecord).where(PolicyRecord.id.in_(policy_ids)), PolicyRecord, db, user)
+            policy_rows = {row.id: row for row in db.scalars(stmt).all()}
         for item in results:
+            if item.domain == "policy" and item.record_id not in policy_rows:
+                continue
             attachments = get_attachments(db, item.domain, item.record_id, user)
             citation = CitationOut(
                 domain=item.domain,
@@ -414,13 +423,18 @@ class BaseBusinessAgent:
             contexts.append(
                 {
                     "domain": item.domain,
+                    "record_id": item.record_id,
                     "title": item.title,
                     "summary": item.summary,
                     "key_fields": item.key_fields,
                     "attachments": attachments,
+                    "evidence_text": _policy_excerpt(policy_rows[item.record_id].content or "") if item.domain == "policy" else "",
                 }
             )
-        return AgentEvidence(citations=citations, contexts=contexts, conservative=not results)
+            if item.domain == "policy" and item.evidence_excerpt is not None:
+                original = policy_rows[item.record_id].content or ""
+                contexts[-1]["allowed_quotes"] = [q for q in item.evidence_excerpt.split("\n\n") if q and q in original]
+        return AgentEvidence(citations=citations, contexts=contexts, conservative=not contexts)
 
     @staticmethod
     def _finalize_answer(answer: str, decision: AgentDecision) -> str:
@@ -523,19 +537,10 @@ class ChatOrchestrator:
         session_id: Optional[int],
     ) -> _OrchestrationContext:
         """公共准备阶段：Judge + Rewrite + Gate + 日志。供 orchestrate / stream_orchestrate 共用。"""
-        from concurrent.futures import ThreadPoolExecutor
-
         entity_context = conversation_memory.get_entity_context(session_id)
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            judge_future = pool.submit(
-                self.judge_agent.judge,
-                question, preferred_domain, user.role, history_messages,
-            )
-            rewrite_future = pool.submit(
-                rewrite_query, question, history_messages, entity_context,
-            )
-            decision = judge_future.result()
-            rewritten = rewrite_future.result()
+        # Route the resolved question; judging the bare pronoun can change domains.
+        rewritten = rewrite_query(question, history_messages, entity_context)
+        decision = self.judge_agent.judge(rewritten.rewritten, preferred_domain, user.role, history_messages)
 
         agent = self.agents[decision.domain]
         self._log_decision(question, decision)
@@ -543,10 +548,20 @@ class ChatOrchestrator:
         if rewritten.is_coreference or rewritten.is_decomposed:
             self._log_rewrite(question, rewritten)
 
-        gate_result = self._check_and_apply_gate(
-            db=db, user=user, session_id=session_id,
-            effective_question=effective_question, top_k=top_k,
-        )
+        if rewritten.reuse_evidence and decision.domain == "policy":
+            restored = self._restore_policy_sources(db, user, session_id)
+            gate_result = RetrievalGateResult(action="reuse", similarity=1.0, cached_results=restored,
+                                               reason="格式追问复用已持久化且重新授权的政策引用")
+        elif decision.domain == "policy":
+            # Similar legal titles can be close in embedding space while referring
+            # to different documents. Only explicit format followups reuse policy evidence.
+            gate_result = RetrievalGateResult(action="full_search", similarity=0.0,
+                                               reason="新政策问题重新检索，避免相似标题误用旧证据")
+        else:
+            gate_result = self._check_and_apply_gate(
+                db=db, user=user, session_id=session_id,
+                effective_question=effective_question, top_k=top_k,
+            )
 
         return _OrchestrationContext(
             decision=decision,
@@ -580,7 +595,7 @@ class ChatOrchestrator:
         gate_result = ctx.gate_result
 
         # ── ReAct Agent 自适应路由 ──
-        if not self._should_run_cross_domain(decision) and should_use_react(effective_question, decision.confidence):
+        if decision.domain != "policy" and not self._should_run_cross_domain(decision) and should_use_react(effective_question, decision.confidence):
             react_result = run_react_agent(
                 db=db,
                 user=user,
@@ -613,8 +628,9 @@ class ChatOrchestrator:
 
         # ── 门控复用 ──
         if gate_result.action == "reuse" and gate_result.cached_results is not None:
-            cached_evidence = agent._build_evidence(db=db, user=user, results=gate_result.cached_results)
-            print(f"[RetrievalGate] 复用上轮结果，跳过检索，节省 ~1s", flush=True)
+            items = self._authorize_cached_sources(db, user, gate_result.cached_results)
+            cached_evidence = agent._build_evidence(db=db, user=user, results=items)
+            print("[RetrievalGate] 复用已重新授权的上轮来源，跳过检索", flush=True)
             return None, cached_evidence.contexts, cached_evidence.citations, cached_evidence.conservative, None
 
         # ── 标准 RAG ──
@@ -651,6 +667,15 @@ class ChatOrchestrator:
             )
 
         # 门控复用 / 标准 RAG：需要 LLM 生成
+        if ctx.decision.domain == "policy":
+            quotes = generate_quotes(ctx.effective_question, contexts)
+            used = _quoted_evidence(quotes, contexts, citations)
+            answer = render_answer(quotes, contexts)
+            conversation_memory.update_after_answer(session_id, question, answer)
+            self._update_retrieval_cache(session_id, ctx.effective_question, agent, db, user, top_k,
+                                         _evidence_items_from_evidence(used))
+            return AgentRunResult(domain="policy", answer=answer, citations=used.citations,
+                                  conservative=used.conservative, decision=ctx.decision)
         answer = agent.answer(ctx.effective_question, user.role, contexts, history_messages, ctx.entity_context)
         answer = agent._finalize_answer(answer, ctx.decision)
         conversation_memory.update_after_answer(session_id, question, answer)
@@ -716,14 +741,32 @@ class ChatOrchestrator:
             yield f"data: {json.dumps({'type': 'done', 'answer': react_answer}, ensure_ascii=False)}\n\n"
             return
 
+        if ctx.decision.domain == "policy":
+            yield _sse_meta("policy", [], True)
+            quotes = []
+            async for quote in stream_quotes(ctx.effective_question, contexts):
+                quotes.append(quote)
+                used = _quoted_evidence(quotes, contexts, citations)
+                yield _sse_meta("policy", used.citations, False)
+                text = (INTRO if len(quotes) == 1 else "") + render_quote(len(quotes), quote, contexts, quotes)
+                yield f"data: {json.dumps({'type': 'chunk', 'content': text}, ensure_ascii=False)}\n\n"
+            used = _quoted_evidence(quotes, contexts, citations)
+            tail = FOOTER if quotes else NO_EVIDENCE
+            yield f"data: {json.dumps({'type': 'chunk', 'content': tail}, ensure_ascii=False)}\n\n"
+            answer = render_answer(quotes, contexts)
+            yield f"data: {json.dumps({'type': 'done', 'answer': answer}, ensure_ascii=False)}\n\n"
+            self._update_retrieval_cache(session_id, ctx.effective_question, ctx.agent, db, user, top_k,
+                                         _evidence_items_from_evidence(used))
+            conversation_memory.update_after_answer(session_id, question, answer)
+            return
+
         # ── 门控复用 / 标准 RAG：流式 LLM 生成 ──
         meta = {
             "type": "meta",
             "domain": ctx.decision.domain,
             "conservative": conservative,
             "citations": [
-                {"domain": c.domain, "record_id": c.record_id, "title": c.title,
-                 "score": c.score, "source_fields": c.source_fields, "key_fields": c.key_fields}
+                    c.model_dump(mode="json")
                 for c in citations
             ],
         }
@@ -818,6 +861,44 @@ class ChatOrchestrator:
     @staticmethod
     def _should_run_cross_domain(decision: AgentDecision) -> bool:
         return decision.cross_domain_candidate and len(decision.candidate_domains) > 1
+
+    @staticmethod
+    def _authorize_cached_sources(db, user, items):
+        authorized = []
+        for domain, model in DOMAIN_MODEL_MAP.items():
+            candidates = [item for item in items if getattr(item, "domain", None) == domain]
+            if not candidates:
+                continue
+            ids = [item.record_id for item in candidates]
+            stmt = apply_permission_filters(select(model).where(model.id.in_(ids)), model, db, user)
+            rows = {row.id: row for row in db.scalars(stmt).all()}
+            for item in candidates:
+                if item.record_id in rows:
+                    restored = _to_retrieved_item(domain, rows[item.record_id], item.score, item.source_fields)
+                    restored.evidence_excerpt = item.evidence_excerpt
+                    authorized.append(restored)
+        return authorized
+
+    @classmethod
+    def _restore_policy_sources(cls, db, user, session_id):
+        if not session_id:
+            return []
+        message = db.scalar(select(ChatMessage).join(ChatSession, ChatSession.id == ChatMessage.session_id)
+                            .where(ChatSession.id == session_id, ChatSession.user_id == user.id,
+                                   ChatMessage.role == "assistant")
+                            .order_by(ChatMessage.id.desc()).limit(1))
+        if not message or message.question_domain != "policy":
+            return []
+        try:
+            citations = json.loads(message.citations_json or "[]")
+            items = [RetrievedItem(domain="policy", record_id=int(c["record_id"]), title=c.get("title", ""),
+                                     score=float(c.get("score", 0)), summary="", publish_date=None,
+                                     key_fields={}, source_fields=c.get("source_fields", []),
+                                     evidence_excerpt=c.get("excerpt"))
+                     for c in citations if c.get("domain") == "policy"]
+        except (ValueError, TypeError, KeyError):
+            return []
+        return cls._authorize_cached_sources(db, user, items)
 
     def _check_and_apply_gate(self, db, user, session_id, effective_question, top_k):
         """P1: 语义相似度门控 — 判断是否可以跳过或简化检索。"""
@@ -921,3 +1002,30 @@ def _evidence_items_from_evidence(evidence: AgentEvidence) -> list:
             source_fields=citation.source_fields if citation else [],
         ))
     return items
+
+
+def _policy_excerpt(text: str) -> str:
+    excerpt = text[:2400]
+    if len(text) > 2400:
+        articles = list(re.finditer(r"(?<!\S)第[一二三四五六七八九十百零〇\d]+条(?:\s|：)", excerpt))
+        if articles:
+            # The last article may continue beyond the cap; exclude it whole.
+            return excerpt[:articles[-1].start()].strip()
+        boundary = max(excerpt.rfind("。"), excerpt.rfind("！"), excerpt.rfind("？"))
+        excerpt = excerpt[:boundary + 1] if boundary >= 0 else ""
+    return excerpt.strip()
+
+
+def _quoted_evidence(quotes, contexts, citations):
+    selected_citations, selected_contexts = [], []
+    for source in dict.fromkeys(q.source for q in quotes):
+        excerpts = list(dict.fromkeys(q.quote for q in quotes if q.source == source))
+        selected_citations.append(citations[source - 1].model_copy(update={"excerpt": "\n\n".join(excerpts)}))
+        selected_contexts.append(contexts[source - 1])
+    return AgentEvidence(citations=selected_citations, contexts=selected_contexts, conservative=not quotes)
+
+
+def _sse_meta(domain, citations, conservative):
+    payload = {"type": "meta", "domain": domain, "conservative": conservative,
+               "citations": [c.model_dump(mode="json") for c in citations]}
+    return f"data: {json.dumps(payload, ensure_ascii=False)}\n\n"

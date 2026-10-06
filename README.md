@@ -49,9 +49,9 @@ flowchart LR
 
 The frontend shares message, record and source-detail components across sample and live views. Public pages are loaded by route. Source details display only returned fields; authenticated attachment downloads use the existing backend permissions.
 
-**Verification limits:** the V1 showcase build and frontend contracts were checked locally. Live MySQL, Milvus and model integration was not exercised. Existing local evaluation reports do not establish the former README claims of 93% recall or a 35% → 15% hallucination reduction, so those claims are removed. No client outcomes or internship affiliation are claimed.
+**Verification limits:** the showcase build and frontend contracts were checked locally. The [live integration evaluation](docs/live-system-evaluation.md) exercises MySQL, Milvus, embeddings, reranking and model streaming. A subsequent [policy answer quality evaluation](docs/answer-quality-evaluation.md) verifies original quotations, bounded format follow-ups and source restoration after restart. Policy answers use verified original excerpts; free-form summarization, other answer paths, current legal validity and production readiness are not certified. Existing local reports do not establish the former claims of 93% recall or a 35% → 15% hallucination reduction, so those claims are removed. No client outcomes or internship affiliation are claimed.
 
-**Existing backend limitation:** the streaming endpoint currently persists responses without returning a new session ID. The frontend preserves an ID if returned, but fresh streamed conversations cannot yet be verified to reuse backend context. This is recorded for a separately scoped backend iteration.
+**Stream continuity:** the streaming endpoint now returns `session_id` in its final `done` event after successful persistence. Two-round API and browser conversations reuse that session. A failed model stream emits an error and preserves partial text in the UI without storing it as a completed answer.
 
 ## Run locally on Windows
 
@@ -94,6 +94,8 @@ python -m venv dist/backend-venv
 ```
 
 Configure `DATABASE_URL`, credentials, `SECRET_KEY`, LLM base URL/key/model, Milvus and `CORS_ORIGINS`. Keep attachments and model caches on D:. Match the embedding dimension to the selected model and existing index. Prepare business records and indexes before expecting useful live answers. Database initialization creates development users; manage these separately before exposing a live service.
+
+For the current Windows machine, `./backend/scripts/start_local.ps1` starts a hidden backend with D: caches and logs, the existing offline model cache and local preview CORS. It uses `dist/backend-venv` if present, otherwise the existing D: Anaconda runtime. `RERANKER_BATCH_SIZE=4` bounds inference memory while keeping all candidates. The Milvus recovery configuration for this PC is in the ignored `dist/milvus-recovery/` directory; the [evaluation](docs/live-system-evaluation.md) describes startup and remaining limits. These paths are local-machine configuration, not cloud deployment settings.
 
 The existing `docker-compose.milvus.yml` describes local Milvus services. It was not launched or modified in V1; use a configured instance and compatible persistent storage. After preparing the database and services, the existing index sync can be run from the project root:
 

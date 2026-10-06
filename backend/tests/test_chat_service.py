@@ -20,7 +20,7 @@ class DummyOrchestrator:
     def __init__(self):
         self.calls = []
 
-    def orchestrate(self, db, user, question, preferred_domain, top_k, history_messages):
+    def orchestrate(self, db, user, question, preferred_domain, top_k, history_messages, session_id=None):
         self.calls.append(
             {
                 "user_id": user.id,

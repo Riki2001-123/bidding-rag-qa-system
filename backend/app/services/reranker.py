@@ -1,5 +1,6 @@
 """Reranker 服务 - 优先从本地加载，使用 FlagEmbedding"""
 from pathlib import Path
+import os
 from typing import List, Dict, Any, Optional
 
 from app.core.config import settings
@@ -72,7 +73,9 @@ class RerankerService:
             return [{"index": i, "score": 0.5} for i in range(min(top_k, len(passages)))]
         
         pairs = [[query, p] for p in passages]
-        scores = model.compute_score(pairs, normalize=True)
+        # Bound inference memory on local machines without dropping candidates.
+        batch_size = max(1, int(os.getenv("RERANKER_BATCH_SIZE", "4")))
+        scores = model.compute_score(pairs, normalize=True, batch_size=batch_size)
         
         if not isinstance(scores, list):
             scores = scores.tolist() if hasattr(scores, 'tolist') else [scores] * len(passages)

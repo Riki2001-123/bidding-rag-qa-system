@@ -149,6 +149,8 @@ class BusinessAgentTestCase(unittest.TestCase):
             candidate_domains=("policy", "enterprise"),
         )
 
+        policy_db = MagicMock()
+        policy_db.scalars.return_value.all.return_value = [SimpleNamespace(id=3, content="供应商资格条件摘要")]
         with patch("app.services.chat_agents.search_domain", return_value=[item]), patch(
             "app.services.chat_agents.get_attachments", return_value=[]
         ), patch(
@@ -156,7 +158,7 @@ class BusinessAgentTestCase(unittest.TestCase):
             return_value="直接结论：满足资格条件。\n\n依据说明：依据政策条款。\n\n补充说明：需结合企业材料复核。",
         ) as mocked_generate:
             result = PolicyAgent().run(
-                db=MagicMock(),
+                db=policy_db,
                 user=self.user,
                 question="政府采购法规定的供应商资格条件有哪些？",
                 top_k=5,
@@ -222,6 +224,10 @@ class BusinessAgentTestCase(unittest.TestCase):
         judge_agent = MagicMock()
         judge_agent.judge.return_value = decision
         orchestrator = ChatOrchestrator(judge_agent=judge_agent)
+        policy_db = MagicMock()
+        policy_db.scalars.return_value.all.return_value = [
+            SimpleNamespace(id=11, content="规定招标投标活动适用的法律法规要求。")
+        ]
 
         def _search_side_effect(*, db, domain, user, q, top_k):
             _ = db, user, q, top_k
@@ -234,7 +240,7 @@ class BusinessAgentTestCase(unittest.TestCase):
             return_value="直接结论：该问题需要同时参考政策规定和招标业务事实。",
         ) as mocked_generate:
             result = orchestrator.orchestrate(
-                db=MagicMock(),
+                db=policy_db,
                 user=self.user,
                 question="招标投标活动适用什么法律法规",
                 preferred_domain=None,
