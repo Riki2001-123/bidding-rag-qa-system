@@ -5,6 +5,8 @@ import { ConfigProvider, theme } from "antd";
 import zhCN from "antd/locale/zh_CN";
 import App from "./App";
 import "./styles.css";
+import "./showcase.css";
+import { LanguageProvider } from "./i18n";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -64,9 +66,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         },
       }}
     >
-      <BrowserRouter>
+      <LanguageProvider><BrowserRouter>
         <App />
-      </BrowserRouter>
+      </BrowserRouter></LanguageProvider>
     </ConfigProvider>
   </React.StrictMode>
 );

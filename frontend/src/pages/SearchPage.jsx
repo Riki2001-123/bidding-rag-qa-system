@@ -1,186 +1,29 @@
-import { Button, Card, Input, Space, Table, Tag, Typography, message } from "antd";
-import { DatabaseOutlined, SearchOutlined } from "@ant-design/icons";
 import { useMemo, useState } from "react";
+import { Alert, Button, Input, Select } from "antd";
+import { SearchOutlined } from "@ant-design/icons";
 import { apiFetch } from "../api/client";
-
-const DOMAIN_LABELS = {
-  all: "全部",
-  tender: "招标",
-  policy: "政策",
-  enterprise: "企业",
-};
-
-const DOMAIN_COLORS = {
-  tender: "gold",
-  policy: "blue",
-  enterprise: "green",
-};
-
+import { SearchResults, SourcePanel } from "../components/KnowledgeUI";
+import { useLocale } from "../i18n";
 export default function SearchPage() {
-  const [query, setQuery] = useState("");
-  const [topK, setTopK] = useState(10);
-  const [items, setItems] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [activeFilter, setActiveFilter] = useState("all");
-
-  const counts = useMemo(() => {
-    const stats = { all: items.length, tender: 0, policy: 0, enterprise: 0 };
-    items.forEach((item) => {
-      if (stats[item.domain] !== undefined) {
-        stats[item.domain] += 1;
-      }
-    });
-    return stats;
-  }, [items]);
-
-  const filteredItems = useMemo(() => {
-    if (activeFilter === "all") {
-      return items;
-    }
-    return items.filter((item) => item.domain === activeFilter);
-  }, [activeFilter, items]);
-
-  const columns = useMemo(
-    () => [
-      {
-        title: "标题",
-        dataIndex: "title",
-        key: "title",
-        width: 320,
-        render: (value, record) => (
-          <div>
-            <Typography.Text strong>{value}</Typography.Text>
-            <div className="table-subtitle">
-              <Tag color={DOMAIN_COLORS[record.domain] || "default"} bordered={false}>
-                {DOMAIN_LABELS[record.domain] || record.domain}
-              </Tag>
-              <span>记录 #{record.record_id}</span>
-            </div>
-          </div>
-        ),
-      },
-      {
-        title: "摘要",
-        dataIndex: "summary",
-        key: "summary",
-        ellipsis: true,
-      },
-      {
-        title: "评分",
-        dataIndex: "score",
-        key: "score",
-        width: 96,
-        render: (value) => <Tag color="blue">{Number(value).toFixed(3)}</Tag>,
-      },
-      {
-        title: "关键字段",
-        dataIndex: "key_fields",
-        key: "key_fields",
-        width: 360,
-        render: (value) => (
-          <Space size={[4, 4]} wrap>
-            {Object.entries(value || {})
-              .filter(([, item]) => item !== "" && item !== null && item !== undefined)
-              .slice(0, 6)
-              .map(([key, item]) => (
-                <Tag key={key} className="field-tag">{`${key}: ${item}`}</Tag>
-              ))}
-          </Space>
-        ),
-      },
-    ],
-    []
-  );
-
-  const onSearch = async () => {
-    setLoading(true);
+  const { tr, domainLabel } = useLocale();
+  const [query, setQuery] = useState(""); const [topK, setTopK] = useState(10);
+  const [items, setItems] = useState([]); const [loading, setLoading] = useState(false);
+  const [filter, setFilter] = useState("all"); const [source, setSource] = useState(null);
+  const [error, setError] = useState(false); const [searched, setSearched] = useState(false);
+  const filtered = useMemo(() => items.filter((r) => filter === "all" || r.domain === filter), [items, filter]);
+  async function search(e) {
+    e.preventDefault(); setLoading(true); setError(false); setSource(null); setItems([]);
     try {
-      const params = new URLSearchParams();
-      if (query.trim()) {
-        params.set("q", query.trim());
-      }
-      params.set("top_k", String(topK));
-      const data = await apiFetch(`/search/all?${params.toString()}`);
-      setItems(data.items || []);
-      setActiveFilter("all");
-    } catch (error) {
-      message.error(`搜索失败：${String(error)}`);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const filterOptions = ["all", "tender", "policy", "enterprise"];
-
-  return (
-    <div className="page-shell">
-      <div className="page-heading">
-        <div>
-          <Typography.Title level={3}>统一智能检索</Typography.Title>
-          <Typography.Text type="secondary">
-            直接输入关键词，系统会同时检索招标、政策、企业三类数据，并按领域分组展示结果。
-          </Typography.Text>
-        </div>
-        <Tag color="processing" icon={<DatabaseOutlined />}>
-          MySQL + BM25 + FAISS
-        </Tag>
-      </div>
-
-      <Card className="search-panel">
-        <Space className="search-controls" size={10} wrap>
-          <Input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            onPressEnter={onSearch}
-            placeholder="输入企业名称、项目名称、法规关键词等，系统会自动跨领域搜索"
-            className="search-input search-input-wide"
-            allowClear
-          />
-          <Button.Group className="topk-group">
-            {[5, 10, 20, 50].map((value) => (
-              <Button
-                key={value}
-                type={topK === value ? "primary" : "default"}
-                onClick={() => setTopK(value)}
-              >
-                每域 Top {value}
-              </Button>
-            ))}
-          </Button.Group>
-          <Button type="primary" icon={<SearchOutlined />} onClick={onSearch} loading={loading}>
-            统一搜索
-          </Button>
-        </Space>
-        <Typography.Text type="secondary" className="search-helper">
-          搜索会覆盖三个领域；下方的筛选标签仅影响展示，不会重新发起“选域搜索”。
-        </Typography.Text>
-      </Card>
-
-      <div className="search-filter-bar">
-        {filterOptions.map((filterKey) => (
-          <button
-            key={filterKey}
-            type="button"
-            className={`search-filter-chip ${activeFilter === filterKey ? "active" : ""}`}
-            onClick={() => setActiveFilter(filterKey)}
-          >
-            <span>{DOMAIN_LABELS[filterKey]}</span>
-            <span className="search-filter-count">{counts[filterKey] || 0}</span>
-          </button>
-        ))}
-      </div>
-
-      <Table
-        rowKey={(record) => `${record.domain}-${record.record_id}`}
-        columns={columns}
-        dataSource={filteredItems}
-        loading={loading}
-        className="result-table"
-        pagination={{ pageSize: 10, showSizeChanger: false }}
-        locale={{
-          emptyText: "暂无结果。你可以尝试换个关键词，系统会自动在三个领域继续搜索。",
-        }}
-      />
-    </div>
-  );
+      const params = new URLSearchParams({ top_k: String(topK) }); if (query.trim()) params.set("q", query.trim());
+      const data = await apiFetch(`/search/all?${params}`); setItems(data.items || []); setFilter("all"); setSearched(true);
+    } catch { setError(true); } finally { setLoading(false); }
+  }
+  return <main className="live-content"><div className="eyebrow">BUSINESS RECORDS</div><h1>{tr("统一智能检索", "Unified knowledge search")}</h1><p className="muted">{tr("同时检索项目、政策和企业数据；来源详情使用真实接口返回的信息。", "Search projects, policies and companies together. Source details show information returned by the live API.")}</p>
+    <form className="live-search-form" onSubmit={search}><Input size="large" value={query} onChange={(e) => setQuery(e.target.value)} placeholder={tr("企业名称、项目名称或政策关键词", "Company, project or policy keyword")} aria-label={tr("搜索真实数据", "Search live records")} prefix={<SearchOutlined />} allowClear />
+      <Select aria-label={tr("每领域结果数", "Results per domain")} value={topK} onChange={setTopK} options={[5, 10, 20, 50].map((value) => ({ value, label: tr(`每域 ${value} 条`, `${value} per domain`) }))} /><Button type="primary" htmlType="submit" size="large" loading={loading}>{tr("搜索", "Search")}</Button></form>
+    <div className="filter-bar">{["all", "policy", "tender", "enterprise"].map((d) => <button key={d} className={filter === d ? "active" : ""} onClick={() => setFilter(d)} aria-pressed={filter === d}>{domainLabel(d)}<span>{items.filter((r) => d === "all" || r.domain === d).length}</span></button>)}</div>
+    {error ? <Alert type="error" showIcon message={tr("检索失败，请检查后端连接或登录状态后重试。", "Search failed. Check the backend connection or sign-in state and retry.")} /> :
+      <SearchResults items={filtered} onSource={setSource} emptyText={!searched ? tr("输入关键词，开始查找业务资料", "Enter a keyword to explore business records") : undefined} />}
+    <SourcePanel source={source} onClose={() => setSource(null)} />
+  </main>;
 }
