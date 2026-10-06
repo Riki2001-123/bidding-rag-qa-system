@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRightOutlined, ArrowUpOutlined, CheckOutlined, FileTextOutlined, GithubOutlined, NodeIndexOutlined, SearchOutlined, SafetyCertificateOutlined } from "@ant-design/icons";
 import PublicHeader, { PROFILE_URL, REPO_URL } from "../components/PublicHeader";
 import { useLocale } from "../i18n";
+import { PUBLIC_SHOWCASE } from "../deployment";
 
 function ProductPreview() {
   const { tr } = useLocale();
@@ -58,6 +59,6 @@ export default function ShowcasePage() {
         ].map(([n, title, detail]) => <div key={n}><span>{n}</span><h3>{title}</h3><p>{detail}</p></div>)}</div><p className="architecture-note">{tr("真实后端包含多 Agent 编排与复杂问题的 ReAct 路由。具体模型及重排能力取决于部署配置；公开演示使用预设数据，不运行该链路。", "The backend includes multi-agent orchestration and ReAct routing for complex questions. Models and reranking depend on deployment configuration. The public demo uses preset data and does not run this pipeline.")}</p>
       </section>
       <section className="contact-section section-width"><div><div className="eyebrow">04 / {tr("可定制服务", "CUSTOM DEVELOPMENT")}</div><h2>{tr("你的业务，下一步。", "Your business. The next step.")}</h2><p>{tr("可洽谈企业知识库问答、业务 API 集成、RAG 检索优化与产品界面开发。文档接入、私有化部署等需求需单独确定范围与验收。", "Available for knowledge Q&A, business API integration, RAG retrieval improvements and product interfaces. Document ingestion and private deployment require a separate scope and acceptance plan.")}</p><div className="service-tags">{[tr("知识库问答", "Knowledge Q&A"), tr("后端集成", "Backend integration"), tr("检索优化", "Retrieval tuning")].map((s) => <span key={s}><CheckOutlined />{s}</span>)}</div></div><a className="contact-link" href={PROFILE_URL} target="_blank" rel="noreferrer"><span>{tr("与 Riki 联系", "Get in touch with Riki")}</span><ArrowUpOutlined /><small>{tr("通过 GitHub 主页了解与联系", "Find Riki on GitHub")}</small></a></section>
-    </main><footer className="public-footer section-width"><span>© 2026 Riki · KNOWLEDGE AI</span><span>{tr("工程案例 · 公开样例", "Engineering portfolio · Public samples")}</span><Link to="/login">{tr("真实系统登录", "Live system sign-in")}<ArrowRightOutlined /></Link></footer>
+    </main><footer className="public-footer section-width"><span>© 2026 Riki · KNOWLEDGE AI</span><span>{tr("工程案例 · 公开样例", "Engineering portfolio · Public samples")}</span><Link to="/login">{PUBLIC_SHOWCASE ? tr("真实系统接入说明", "About live integration") : tr("真实系统登录", "Live system sign-in")}<ArrowRightOutlined /></Link></footer>
   </div>;
 }

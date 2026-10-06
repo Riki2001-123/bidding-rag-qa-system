@@ -1,6 +1,6 @@
 # Riki · 企业知识问答
 
-[English](README.md) · [查看源码](https://github.com/Riki2001-123/bidding-rag-qa-system) · [联系 Riki](https://github.com/Riki2001-123)
+[在线展示](https://riki2001-123.github.io/bidding-rag-qa-system/) · [免登录演示](https://riki2001-123.github.io/bidding-rag-qa-system/demo/) · [English](README.md) · [查看源码](https://github.com/Riki2001-123/bidding-rag-qa-system) · [联系 Riki](https://github.com/Riki2001-123)
 
 **把企业知识与业务数据，变成有依据的答案。**
 
@@ -11,6 +11,8 @@
 ## 体验方式
 
 公开演示完全运行在前端，**无需登录、后端或 API 密钥**。企业、项目和采购指引均为虚构；回答与追问预先编写，不是模型实时生成。
+
+GitHub Pages 在线版提供首页与样例；真实系统入口显示接入说明，不开放登录或业务接口。下表描述完整本地版本。在线构建范围见 [Pages 发布规格](docs/pages-deployment-spec.md)。
 
 | 页面 | 路由 | 功能 |
 |---|---|---|

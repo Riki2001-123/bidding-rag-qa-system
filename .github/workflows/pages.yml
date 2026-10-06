@@ -1,0 +1,46 @@
+name: Publish public showcase
+on:
+  push:
+    branches: [master]
+    paths: ['frontend/**', '.github/workflows/pages.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Prepare workspace cache and temp directories
+        run: mkdir -p dist/npm-cache dist/tmp
+      - name: Install and verify frontend
+        working-directory: frontend
+        env:
+          npm_config_cache: ${{ github.workspace }}/dist/npm-cache
+          TMPDIR: ${{ github.workspace }}/dist/tmp
+        run: |
+          npm ci
+          npm test
+          npm run build:pages
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist/pages-deployment/site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/deploy-pages@v4
+        id: deployment

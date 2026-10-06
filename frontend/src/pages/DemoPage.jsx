@@ -6,6 +6,7 @@ import PublicHeader from "../components/PublicHeader";
 import { KnowledgeMessage, SearchResults, SourcePanel } from "../components/KnowledgeUI";
 import { useLocale } from "../i18n";
 import { cases, records, matchQuestion, searchRecords, localizeRecord } from "../data/demo";
+import { PUBLIC_SHOWCASE } from "../deployment";
 
 export default function DemoPage() {
   const { language, tr, domainLabel } = useLocale();
@@ -33,7 +34,7 @@ export default function DemoPage() {
   const visibleRecords = searchRecords(query, domain).map((r) => localizeRecord(r, language));
   const selectedSource = records.find((r) => r.id === sourceId);
   return <div className={`demo-page ${sourceId ? "source-open" : ""}`}><PublicHeader />
-    <div className="sample-banner"><span className="status-dot" /><strong>{tr("样例演示", "SAMPLE DEMO")}</strong><span>{tr("虚构数据与预设回答 · 不调用模型或真实业务 API", "Fictional data & preset answers · No model or business API calls")}</span><Link to="/login">{tr("真实系统", "Live system")}<ArrowRightOutlined /></Link></div>
+    <div className="sample-banner"><span className="status-dot" /><strong>{tr("样例演示", "SAMPLE DEMO")}</strong><span>{tr("虚构数据与预设回答 · 不调用模型或真实业务 API", "Fictional data & preset answers · No model or business API calls")}</span><Link to="/login">{PUBLIC_SHOWCASE ? tr("接入说明", "Live integration") : tr("真实系统", "Live system")}<ArrowRightOutlined /></Link></div>
     <main className="demo-workspace">
       <aside className="demo-sidebar"><div className="eyebrow">WORKSPACE / 001</div><h2>{tr("知识，连接起来。", "Knowledge, connected.")}</h2><p>{tr("选择一个问题，查看答案与依据。", "Choose a question. Inspect the answer and its sources.")}</p>
         <div className="case-list">{cases.map((item, i) => <button className={`case-button ${lastId === item.id ? "selected" : ""}`} key={item.id} onClick={() => { setConversation([item]); setNotice(false); setInput(""); setSourceId(null); setTab("chat"); }}>

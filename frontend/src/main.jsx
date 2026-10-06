@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import { ConfigProvider, theme } from "antd";
 import zhCN from "antd/locale/zh_CN";
-import App from "./App";
+import App from "@application";
 import "./styles.css";
 import "./showcase.css";
 import { LanguageProvider } from "./i18n";
@@ -66,7 +66,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         },
       }}
     >
-      <LanguageProvider><BrowserRouter>
+      <LanguageProvider><BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "") || "/"}>
         <App />
       </BrowserRouter></LanguageProvider>
     </ConfigProvider>

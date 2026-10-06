@@ -90,6 +90,9 @@ try {
   await check("demo reset, refresh and token/history isolation", async () => {
     assert.equal(await page.evaluate(() => localStorage.getItem("token")), null);
     assert.equal(await page.evaluate(() => localStorage.getItem("rag_chat_history")), null);
+    // A case query intentionally starts that preset again on reload. Test
+    // in-memory conversation clearing on the route without a case parameter.
+    await page.goto(base + "/demo");
     await page.getByRole("button", { name: "重置", exact: true }).click(); await page.getByRole("tab", { name: "智能问答" }).click();
     assert.equal(await page.locator(".answer-body").count(), 0);
     await page.locator(".case-button").first().click(); await page.reload();
@@ -198,9 +201,9 @@ try {
   });
   await check("controlled real search, untranslated records, source detail and failure", async () => {
     mode = "success"; await lp.getByRole("link", { name: "Search", exact: true }).click();
-    await lp.getByRole("textbox", { name: "Search live records" }).fill("software"); await lp.getByRole("button", { name: "Search", exact: true }).click();
+    await lp.getByRole("textbox", { name: "Search live records" }).fill("software"); await lp.locator('.live-search-form button[type="submit"]').click();
     await lp.getByText("真实记录原文", { exact: true }).waitFor(); await lp.locator(".record-row").click(); await lp.getByText("业务数据不翻译", { exact: true }).last().waitFor(); await lp.keyboard.press("Escape");
-    mode = "searchError"; await lp.getByRole("button", { name: "Search", exact: true }).click(); await lp.getByText(/Search failed/).waitFor();
+    mode = "searchError"; await lp.locator('.live-search-form button[type="submit"]').click(); await lp.getByText(/Search failed/).waitFor();
     assert.equal(await lp.locator(".record-row").count(), 0);
   });
   await check("no browser runtime errors on public or controlled live routes", async () => assert.deepEqual(consoleErrors, []));
